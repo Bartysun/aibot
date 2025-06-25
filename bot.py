@@ -192,9 +192,9 @@ dialog.list = []
 dialog.count = 0
 dialog.user = {}
 
-chatgpt = ChatGptService(token="javcgkAld/r/7U60nS8WDUhWeWVYkZbhjQYpKBFGTvoj5842ast7Pxc54epaCxHRBWXa4vjUutckFaoaUmyOdt62mPPZjjrSFzHlklUvRxjKkD54HiY1iMRLus7TxOkcmPElgqCRPBocX6wJsuWbUTuGkgPNjhYwE08Bvau9oVOiaBcWnUrI/ewY+ccVqx7dnAN4A7RhT46B8BjZjVtU/H8jZakz1cJir+37f/KOL/cTVnmJo=")
+chatgpt = ChatGptService(token="pupupu")
 
-app = ApplicationBuilder().token("8186914043:AAGm6rruTqUr8pcJvtQUpPEF3qaqAWPLLIw").build()
+app = ApplicationBuilder().token("pupupu").build()
 app.add_handler(CommandHandler("start",start))
 app.add_handler(CommandHandler("gpt",gpt))
 app.add_handler(CommandHandler("date",date))
